@@ -57,7 +57,7 @@ function App() {
       <Helmet>
         <meta name="description" content="Learn English and other selected languages faster by using Word Ware app to look up words" />
         <meta name="keywords" content="Word ware, Dictionary, Languages, Examples, Synonyms" />
-        <title>Word Ware - David</title>
+        <title>Word Ware</title>
       </Helmet>
       <div style={{ position: "absolute", top: 0, right: 15, marginBottom: 10 }}>
         <span>{lightMode ? "Dark Mode" : "Light Mode"}</span>
