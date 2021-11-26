@@ -1,0 +1,48 @@
+.meanings {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    overflow-x: hidden;
+    height: 60vh;
+    border: 10px solid rgb(105, 105, 105);
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+.meanings::-webkit-scrollbar {
+    width: 5px;
+}
+
+.meanings::-webkit-scrollbar-track {
+    background: #ddd;
+}
+
+.meanings::-webkit-scrollbar-thumb {
+    background: #666;
+}
+
+.subtitle {
+    font-size: 3vw;
+    font-family: "Montserrat" sans-serif;
+}
+
+@media (max-width: 800px) {
+    .subtitle {
+        font-size: 5vw;
+        margin-top: 8px;
+        text-align: center;
+    }
+    .meanings {
+        height: 65vh;
+        overflow-x: hidden;
+    }
+}
+
+.singleMeaning {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px 20px;
+}

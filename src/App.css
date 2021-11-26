@@ -1,0 +1,14 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 100vh;
+}
+
+
+@media (max-width:800px) {
+  .container{
+    position: relative;
+    top: 30px
+  }
+}
